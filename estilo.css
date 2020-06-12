@@ -1,0 +1,195 @@
+
+ @font-face{
+     font-family: 'sunday';
+     src: url(fnt/sunday.ttf)
+ }
+ @font-face{
+    font-family: 'spring';
+    src: url(fnt/spring.ttf)
+}
+@font-face{
+    font-family: 'geosans';
+    src: url(fnt/geosans.ttf)
+}
+*{
+    box-sizing: border-box;
+}
+ body{
+    background-color: #E0FFFF;
+ }
+ #menu{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #66CDAA;
+}
+#menu ul{
+    padding: 9px;
+    margin: 0px;
+    float: center;
+    list-style-type: none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    float: center;
+    margin: 3px 3px;
+    padding: 7px;
+    border-right: 1px solid white;
+    text-decoration: none;
+    color:white;
+    font-family: 'geosans','Sunday', 'Segoe UI', Tahoma, 'Geneva', Verdana, s ans-serif;
+    font-size: 20px;
+}
+#menu ul li a:hover{
+ 
+    color: 000;
+}
+/*Topo*/
+html, body {height:100%;}
+#topo{
+    height: 200px;
+    margin: 0 auto;
+    background-repeat: repeat;
+    background-image: url("img/wall.jpg");
+    width: 100%;
+}
+#topo figcaption{
+    display: none;
+}
+#topo img{
+    margin-top: -20px;
+    margin-left: -624px;
+    height: 300px;
+}
+#topo h1{
+    font-family: 'sunday';
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+h1, h2,h3, p{
+    font-family: 'geosans';
+}
+a{
+    text-decoration: none;
+    color: #112D32;
+}
+a:hover{
+    color:000;
+}
+#bloco-direito{
+    background-color: #B0E0E6;
+    float: right;
+    width: 18%;
+    height: 100%;
+    margin-top: 14px;
+    margin-right: 10px;
+    padding: 10px; 
+}
+#bloco-direito img{
+    position: relative;
+    top: 50%;
+
+    width: 200px;
+}
+#bloco-direito h2{
+    color:#112D32;
+}
+#bloco-direito p{
+    color:#112D32;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#bloco-esquerdo{
+    background-color: #B0E0E6; 
+    float: left;
+    width: 79%;
+    height: 50%;
+    margin-top: 14px;
+    margin-left: 10px;
+    /* display: inline; */
+    padding: 10px; 
+}
+#bloco-esquerdo h1{
+    font-size: 40px;
+    color: white;
+}
+#bloco-esquerdo p{
+    font-size: 22px;
+    color: #112D32;
+    text-align: justify;
+}
+#imagp{
+    width: 100%;
+}
+#imagp img{
+    width: 30%;
+    margin: 0 1.66%;
+
+}
+.ins{
+    border:solid #112D32;
+    margin: 0 auto;
+}
+#conteudo{
+    position: relative;
+}
+#rodape{
+    position: relative;
+    bottom:0;
+    height: 30px;
+    width: 752px;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 4px;
+    font-family: 'geosans';
+    font-size: 14px;
+    color: #20B2AA;
+    font-style: italic;
+    font-weight: bold;
+}
+#parceria{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgq a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contatos a{
+    display: inline-block;
+    margin: 0 10px;
+}
+#thank{
+    margin: 10px 0;
+}
+figcaption{
+    display: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#formulario{
+    font-size: 18px;
+    font-family: 'geosans';
+}
+/* *:hover{
+    animation: rodarodajequiti 3.0s linear infinite;
+}
+
+@keyframes rodarodajequiti{
+    50%{
+        transform: scale(3,3);
+    }
+} */
